@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>Recomenda um filme aê</title>
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon"/>
+    <link rel="image_src" href="images/background.jpg"/>
+    <meta property="og:image" content="images/background.jpg">
+    <meta property="og:title" content="Recomenda um filme aê" />
+    <meta property="og:description" content="O melhor site para encontrar o filme certo, na hora certa" />
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="1024">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.css" />
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="../bower_components/MDBootstrap/css/mdb.min.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <!--Start your project here-->
+    <!-- <nav class="navbar navbar-toggleable-md navbar-dark scrolling-navbar fixed-top">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#collapseEx2" aria-controls="collapseEx2" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <strong class="orbitron">Recomenda um filme aê</strong>
+            </a>
+            <div class="collapse navbar-collapse" id="collapseEx2">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="link" target="_blank" class="nav-link">LINK</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="link" target="_blank" class="nav-link">LINK</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> -->
+    <!--/.Navbar-->
+
+
+    <div class="progress primary-color-dark">
+        <div class="indeterminate"></div>
+    </div>
+
+
+    <!-- Main container-->
+    <div class="view hm-black-strong">
+        <div class="flex-center full-bg-img">
+          <ul>
+              <li>
+                  <h1 class="wow fadeInDown kumar-one title" data-wow-delay="0.2s">Recomenda um filme aê</h1></li>
+              <li>
+                  <p class="wow fadeInDown">Todos os grandes filmes da história do cinema</p>
+                  <p class="wow fadeInDown">Em breve novidades</p>
+              </li>
+              <li>
+                  <a id="recomendar" href="#" class="btn btn-danger btn-lg wow fadeInLeft" data-wow-delay="0.2s" style="background: none; border-radius: 0px;">Recomende-me um filme</a>
+              </li>
+          </ul>
+        </div>
+        <div class="footer" style="text-align: center; color: #fff">
+          <div class="center">
+              Made with ♥ by <a href="http://victoraurelio.com">ovictoraurelio</a>
+          </div>
+        </div>
+    </div>
+
+
+
+
+      <!-- Modal -->
+      <!-- <div class="modal fade" id="modalMovie" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document"> -->
+        <div class="modal fade bottom" id="modalMovie" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="border-radius: 0px">
+            <div class="modal-dialog modal-lg modal-bottom" role="document" style="border-radius: 0px; scroll: none;">
+              <!--Content-->
+              <div class="modal-content" style="border-radius: 0px">
+                  <!--Header-->
+                  <!--Body-->
+                  <div class="modal-body">
+                      <div class="row">
+                          <div class="col-md-6" style="text-align: right">
+
+                              <div class="img-content" >
+                                  <h4 class="modal-title w-100 kumar-one" id="title"></h4>
+                                  <img id="poster" src="">
+                              </div>
+                          </div>
+                          <div class="col-md-6" style="text-align: left">
+                              <p>
+                                  <b>Ano:&nbsp;</b><label id="year"> </label><br>
+                                  <b>Produtora:&nbsp;</b><label id="production"> </label><br>
+                                  <b>Diretor:&nbsp;</b><label id="director"> </label><br>
+                                  <b>Atores:&nbsp;</b><label id="actors"> </label><br>
+                                  <b>Descrição:&nbsp;</b><label id="plot"> </label><br>
+                              </p>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-md-6">
+                              <button id="outroFilme" class="btn btn-danger btn-lg wow fadeInLeft" type="button" style="width: 100%; border-radius: 0px">
+                                  <span aria-hidden="true">Outro filme</span>
+                              </button>
+                          </div>
+                          <div class="col-md-6">
+                              <button class="btn btn-info btn-lg wow fadeInLeft" type="button" data-dismiss="modal" aria-label="Close" style="width: 100%; border-radius: 0px">
+                                  <span aria-hidden="true">Compartilhar minha escolha</span>
+                              </button>
+                          </div>
+                      </div>
+                  </div>
+                  <!--Footer
+                  <div class="modal-footer">
+                      <<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>-->
+              </div>
+              <!--/.Content-->
+          </div>
+      </div>
+      <!-- Modal -->
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/tether/dist/js/tether.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../bower_components/MDBootstrap/js/mdb.min.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js scripts/main.js -->
+        <script src="scripts/main.js"></script>
+        <!-- endbuild -->
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-99014039-1', 'auto');
+        ga('send', 'pageview');
+
+  </script>
+</body>
+</html>
